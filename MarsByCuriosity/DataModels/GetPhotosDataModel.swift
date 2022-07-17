@@ -3,8 +3,6 @@ import UIKit
 struct GetPhotosDataModel {
     var earthDate: String?
     var camera: CameraItem?
-//    "mnnNZoE40ou0NHqrg2OAV7RTRsoWk4hGciq8gvFQ"
-//    "wxDXv0dwLffgxIXrpFDFUSuaB5ecz5cUoNRe5lTg"
     var apiKey = "mnnNZoE40ou0NHqrg2OAV7RTRsoWk4hGciq8gvFQ"
     
     func getParameters() -> [String: Any] {
