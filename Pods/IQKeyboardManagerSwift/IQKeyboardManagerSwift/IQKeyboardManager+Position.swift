@@ -613,7 +613,7 @@ public extension IQKeyboardManager {
                     //  Setting adjusted rootViewRect
 
                     UIView.animate(withDuration: animationDuration, delay: 0, options: animationCurve, animations: { () -> Void in
-
+                        
                         //Animating content if needed (Bug ID: #204)
                         if self.layoutIfNeededOnUpdate {
                             //Animating content (Bug ID: #160)

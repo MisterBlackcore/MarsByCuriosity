@@ -8,6 +8,6 @@ target 'MarsByCuriosity' do
   # Pods for MarsByCuriosity
   pod 'Moya', :inhibit_warnings => true
   pod 'DropDown', :inhibit_warnings => true
-  pod 'IQKeyboardManagerSwift', '6.5.9', :inhibit_warnings => true
+  pod 'IQKeyboardManagerSwift', :inhibit_warnings => true
 
 end
