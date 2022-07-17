@@ -1,0 +1,6 @@
+framework module Pods_MarsByCuriosity {
+  umbrella header "Pods-MarsByCuriosity-umbrella.h"
+
+  export *
+  module * { export * }
+}
